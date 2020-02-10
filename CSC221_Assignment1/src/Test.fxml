@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287.0" prefWidth="299.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="firstNameTF" layoutX="66.0" layoutY="80.0" promptText="Enter first name" />
+      <TextField fx:id="lastNameTF" layoutX="66.0" layoutY="144.0" promptText="Enter last name" />
+      <HBox layoutX="66.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
